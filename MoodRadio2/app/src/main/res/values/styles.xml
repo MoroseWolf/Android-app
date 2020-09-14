@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="PlayerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="color">@color/actionbar_color</item>
+        <item name="colorPrimary">@color/actionbar_color</item>
+        <item name="colorPrimaryDark">@color/statusbar_color</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorAccent">@color/statusbar_color</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="color">@color/actionbar_color</item>
+        <item name="colorPrimary">@color/actionbar_color</item>
+        <item name="colorPrimaryDark">@color/statusbar_color</item>
+        <item name="colorAccent">@color/statusbar_color</item>
+    </style>
+
+</resources>
